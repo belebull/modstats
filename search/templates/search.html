@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="header"> Get the ModStats for Any Subreddit </div>
+<form name="search" action="post">
+  <input type="text" name="subreddit" placeholder="Enter the name of a subreddit"></input>
+  <div class="form-actions">
+    <button class="submit-btn" name="submit"> Search </button>
+    <button class="clear-btn" name="clear"> Clear </button>
+  </div>
+</form>
+{% endblock %}
